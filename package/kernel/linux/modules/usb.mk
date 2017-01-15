@@ -525,7 +525,7 @@ define KernelPackage/usb-acm
   TITLE:=Support for modems/isdn controllers
   KCONFIG:=CONFIG_USB_ACM
   FILES:=$(LINUX_DIR)/drivers/usb/class/cdc-acm.ko
-  AUTOLOAD:=$(call AutoProbe,cdc-acm)
+  AUTOLOAD:=$(call AutoProbe,cdc-acm,1)
 $(call AddDepends/usb)
 endef
 
