@@ -1,9 +1,9 @@
 #!/bin/sh /etc/rc.common
 
-START=20
-STOP=90
+#START=20
+#STOP=90
 
-USE_PROCD=1
+#USE_PROCD=1
 
 init_switch() {
 	setup_switch() { return 0; }
